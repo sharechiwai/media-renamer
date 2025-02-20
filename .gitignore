@@ -1,0 +1,49 @@
+# .NET Build Outputs
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.cache
+*.resources
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Files
+.vs/
+*.csproj.user
+*.sln.DotSettings.user
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet Packages
+packages/
+*.nupkg
+# Exclude the NuGet package lock file unless you specifically want it tracked
+*.lock.json
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE-Specific Files
+*.idea/
+*.vscode/
+*.vs/
+*.sublime-*
+
+# User-Specific Files
+*.suo
+*.userprefs
+
+# Windows-Specific Files
+Thumbs.db
+Desktop.ini
+
+# Optional: Ignore Debug/Release Folders
+[Dd]ebug/
+[Rr]elease/
